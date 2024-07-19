@@ -7,7 +7,7 @@ const Banner = () => {
   return (
     <div className="bg-yellow-400 text-blue-800 p-6 flex items-center  w-1/3">
       <FontAwesomeIcon icon={faStar} className="text-4xl mr-4" />
-      <h1 className="text-4xl font-bold">Company Name</h1>
+      <h1 className="text-4xl font-bold">StarPaints</h1>
     </div>
   );
 };

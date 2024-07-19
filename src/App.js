@@ -5,6 +5,9 @@ import Banner from './components/Banner';
 import Navbar from './components/Navbar';
 import About from './components/About';
 import Contact from './components/Contact';
+import Home from './components/Home';
+import starpaintImage from './starpaint.jpeg';
+
 
 function App() {
   return (
@@ -16,6 +19,7 @@ function App() {
         </div>
         <div className="p-6">
           <Routes>
+            <Route path="/" element={<Home  src = {starpaintImage} alt="Placeholder Image" />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
