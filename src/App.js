@@ -13,8 +13,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <div className="flex">
-          <Banner />
+        
           <Navbar />
         </div>
         <div className="p-6">
@@ -24,7 +23,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </div>
-      </div>
+      
     </Router>
   );
 }
