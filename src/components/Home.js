@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import paint1 from '../paint1.jpeg';
 import paint2 from '../paint2.jpeg';
-import paint3 from '../spd.jpg';
+import paint3 from '../paint3.jpeg';
 
 const Home = ({ src, alt = '' }) => {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -28,15 +28,16 @@ const Home = ({ src, alt = '' }) => {
         className={`transition-opacity duration-1000 ${isLoaded ? 'opacity-100' : 'opacity-0'} w-full sm:w-1/2 lg:w-1/3 object-contain`}
       />
       <img
-        src={paint1}
+        src={paint2}
         alt={alt}
-        className={`transition-opacity duration-1000 ${isLoaded ? 'opacity-100' : 'opacity-0'} w-full sm:w-1/2 lg:w-1/3 object-contain`}
+        className={`transition-opacity duration-1000 ${isLoaded ? 'opacity-100' : 'opacity-0'} w-full sm:w-1/2 lg:w-1/4 object-contain`}
       />
       <img
         src={paint3}
         alt={alt}
         className={`transition-opacity duration-1000 ${isLoaded ? 'opacity-100' : 'opacity-0'} w-full sm:w-1/2 lg:w-1/3 object-contain`}
       />
+      
     </div>
   );
 };
