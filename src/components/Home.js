@@ -7,7 +7,7 @@ import paint5 from '../paint5.jpeg'; // New Image 2
 import mainImage from '../starpaint.jpeg'; // The top image
 
 const images = [
-  { src: paint1, alt: 'Painting 1' },
+  //{ src: paint1, alt: 'Painting 1' },
   { src: paint2, alt: 'Painting 2' },
   { src: paint3, alt: 'Painting 3' },
   { src: paint4, alt: 'Painting 4' },
